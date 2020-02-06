@@ -1,6 +1,6 @@
 mod rectangle;
 
-use crate::rectangle::rectangle::Rectangle;
+use rectangle::Rectangle;
 
 fn main() {
   let rect1 = Rectangle::new(40, 50);
