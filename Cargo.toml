@@ -1,0 +1,12 @@
+[package]
+name = "rust-learn"
+version = "1.0.0"
+authors = ["Ryan Dsouza <dsouza.ryan.11@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "rust-learn"
+path = "src/calculate_area.rs"
+
+[dependencies]
+rand = "0.7.3"
