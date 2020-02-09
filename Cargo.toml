@@ -6,7 +6,7 @@ edition = "2018"
 
 [[bin]]
 name = "rust-learn"
-path = "src/calculate_area.rs"
+path = "src/collections.rs"
 
 [dependencies]
 rand = "0.7.3"

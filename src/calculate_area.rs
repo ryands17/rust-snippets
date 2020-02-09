@@ -1,3 +1,4 @@
+#[path = "libs/rectangle.rs"]
 mod rectangle;
 
 use rectangle::Rectangle;
