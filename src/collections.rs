@@ -1,7 +1,3 @@
-#[path = "libs/factorial.rs"]
-mod factorial;
-
-use factorial::factorial;
 use std::collections::HashMap;
 
 
@@ -15,10 +11,6 @@ fn main() {
     Some(third) => println!("Number is {}", third),
     None => println!("First is {}", numbers.get(10).unwrap_or(&0))
   };
-
-  for i in &numbers {
-    println!("{}! = {}", i, factorial(*i as u16));
-  }
 
   for i in &mut squares {
     *i = i32::pow(*i, 2);

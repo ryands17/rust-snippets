@@ -1,3 +1,6 @@
+#[path = "libs/factorial.rs"]
+mod factorial;
+
 fn run<F>(f: F)
   where F: Fn()
 {
@@ -22,7 +25,7 @@ fn main() {
   run(print);
   println!("{}", add3(10));
   println!("{:?}", greater_than_10);
-  println!("Counter sum: {}", counter_sum);
+  println!("Counter sum: {}", factorial::factorial(counter_sum));
   println!("*************** Closures ***************");
 }
 
