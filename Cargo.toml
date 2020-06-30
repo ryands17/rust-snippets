@@ -6,7 +6,7 @@ edition = "2018"
 
 [[bin]]
 name = "rust-learn"
-path = "src/closures.rs"
+path = "src/format.rs"
 
 [dependencies]
 rand = "0.7.3"
